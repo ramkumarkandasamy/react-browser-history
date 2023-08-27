@@ -1,0 +1,32 @@
+.main-container {
+  box-shadow: black;
+  border-style: solid 2px;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+}
+.list-container {
+  display: flex;
+  flex-direction: row;
+  margin: 6px;
+  border-radius: 12px;
+  box-shadow: rgb(8, 8, 8);
+  background-color: aliceblue;
+  justify-content: space-between;
+}
+.logo {
+  padding: 6px;
+}
+.list {
+  margin: 12px;
+}
+.delete-icon {
+  align-items: center;
+  padding-right: 12px;
+  margin: 8px;
+}
+.delete-logo {
+  height: 28px;
+  width: 28px;
+}
